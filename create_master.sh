@@ -20,6 +20,8 @@ kubectl create -f https://docs.projectcalico.org/manifests/custom-resources.yaml
 
 #Confirm that all of the pods are running with the following command
 watch kubectl get pods -n calico-system
+# or check all system pods and Calico pod
+kubectl get pods --all-namespaces
 
 # Remove the taints on the master so that you can schedule pods on it
 kubectl taint nodes --all node-role.kubernetes.io/master-
@@ -27,8 +29,9 @@ kubectl taint nodes --all node-role.kubernetes.io/master-
 # Confirm that you now have a node in your cluster with the following command
 kubectl get nodes -o wide
 
+# Check status kubelet (before kubeadmin init it was exited)
+sudo systemctl status kubelet.service
 
-# Then you can join any number of worker nodes by running the following on each as root:
-kubeadm join 10.0.0.10:6443 --token ihvpbi.6w25a30lqmtj8kkq \
-    --discovery-token-ca-cert-hash sha256:b4718c2eabe417a25ef050f4effa1d07095250da06c3628d98e24b76985e70ce
-
+# Check config files and manifests
+sudo ls -l /etc/kubernetes
+sudo ls -l /etc/kubernetes/manifests/
