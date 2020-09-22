@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e599ece8-398e-46a7-83ad-48ba8a1e0db0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DevOps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install/add_node.sh" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/Install/add_node.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install/change_ip.sh" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/Install/change_ip.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install/create_master.sh" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/Install/create_master.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install/package_install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/Install/package_install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_with_cluster.sh" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/work_with_cluster.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DevOps.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +187,7 @@
       <workItem from="1597844207524" duration="4235000" />
       <workItem from="1597862274056" duration="4146000" />
       <workItem from="1597923606992" duration="3198000" />
-      <workItem from="1598342112639" duration="3807000" />
+      <workItem from="1598342112639" duration="4505000" />
     </task>
     <servers />
   </component>
