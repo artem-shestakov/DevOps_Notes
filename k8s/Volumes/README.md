@@ -99,7 +99,7 @@ volumes:
 
 ## PersistentVolume
 
-Create PersistentVolume [manifest](https://gitlab.com/artem-shestakov/devops/-/blob/master/k8s/Volumes/persistentVolume.yaml):
+Create PersistentVolume [manifest](https://github.com/artem-shestakov/DevOps_Notes/blob/master/k8s/Volumes/persistentVolume.yaml):
 ```yaml
 spec:
   capacity:

@@ -12,7 +12,7 @@ $ kubectl create secret tls tls-secret --cert=tls.cert --key=tls.key
 secret/tls-secret created
 ```
 
-Add spec.tls section in [manifest](https://gitlab.com/artem-shestakov/devops/-/blob/master/k8s/Ingress/ingress-tls.yaml)
+Add spec.tls section in [manifest](https://github.com/artem-shestakov/DevOps_Notes/blob/master/k8s/Ingress/ingress-tls.yaml)
 ```yaml
 spec:
   tls:
