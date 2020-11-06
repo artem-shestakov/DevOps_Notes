@@ -122,7 +122,7 @@ database-pv   10Gi       RWO,ROX        Retain           Available              
 
 ### PersistentVolumeClaim
 
-Create [claim](https://gitlab.com/artem-shestakov/devops/-/blob/master/k8s/Volumes/persistentVolumeClaim.yaml):
+Create [claim](https://github.com/artem-shestakov/DevOps_Notes/blob/master/k8s/Volumes/persistentVolumeClaim.yaml):
 ```yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
