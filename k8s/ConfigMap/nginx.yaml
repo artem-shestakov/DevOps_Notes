@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx
+data:
+  # Use this key as config file
+  nginx.config: |
+    server {
+          listen       80;
+          server_name  _;
+          location / {
+              return 200 'ConfigMap';
+          }
+    }
