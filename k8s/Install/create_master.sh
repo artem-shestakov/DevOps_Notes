@@ -1,5 +1,6 @@
 # Initialize master
 sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address 10.0.0.10
+sudo kubeadm init --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=10.0.0.10 --apiserver-cert-extra-sans=10.0.1.10
 
 # Make current user admin for kubectl
 mkdir -p $HOME/.kube
